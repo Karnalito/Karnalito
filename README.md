@@ -51,6 +51,10 @@ Here is a selection of what I'm building.
   </tr>
 </table>
 
+<p align="center">
+  <img src="https://ghchart.rshah.org/8575C9/Karnalito" alt="GitHub contribution activity over the past year" />
+</p>
+
 <p><strong>More projects from the workbench</strong></p>
 
 Some of the projects I'm working on, with a few nearing completion:
