@@ -2,7 +2,7 @@ name: Refresh contribution artwork
 on:
   workflow_dispatch:
   schedule:
-    - cron: '7,22,37,52 * * * *'
+    - cron: '9,24,39,54 * * * *'
   push:
     paths:
       - '.github/workflows/profile-activity.yml'
