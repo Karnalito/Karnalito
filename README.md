@@ -52,6 +52,10 @@ Here is a selection of what I'm building.
 </table>
 
 <p align="center">
+  <img src="https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub-contributions-api.jogruber.de%2Fv4%2FKarnalito%3Fy%3Dlast&amp;query=%24.total.lastYear&amp;label=Contributions%20%28last%20year%29&amp;color=8575C9&amp;style=flat-square&amp;cacheSeconds=3600" alt="Dynamic GitHub contribution count over the last year" />
+</p>
+
+<p align="center">
   <img src="https://ghchart.rshah.org/8575C9/Karnalito" alt="GitHub contribution activity over the past year" />
 </p>
 
