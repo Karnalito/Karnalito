@@ -18,7 +18,7 @@ I'm particularly interested in OSINT, cyber threat intelligence, information war
 
 My personal projects include web scraping, online influence mapping, investigation graphs and automation tools.
 
-🌍 Based in France.
+<img src="assets/profile-icons/globe.svg" alt="" width="19" height="19" /> Based in France.
 
 <p><strong>Featured projects</strong></p>
 
@@ -27,19 +27,19 @@ Here is a selection of what I'm building.
 <table>
   <tr>
     <td width="50%" valign="top">
-      <p><strong>🔎 Prism</strong></p>
+      <p><strong><img src="assets/profile-icons/prism.svg" alt="" width="19" height="19" /> Prism</strong></p>
       <p>OSINT investigation platform bringing together research tools, investigation methods, and entity correlation. Search usernames, emails, domains or other identifiers, then organize findings into profiles, investigation graphs, and case reports.</p>
       <p><code>OSINT orchestration</code> · <code>Entity correlation</code><br /><code>Investigation graphs</code></p>
     </td>
     <td width="50%" valign="top">
-      <p><strong>🦅 Falcon</strong></p>
+      <p><strong><img src="assets/profile-icons/falcon.svg" alt="" width="19" height="19" /> Falcon</strong></p>
       <p>Web data acquisition engine built for the hostile web. Orchestrates collection across websites, APIs, and Git sources, combining modular connectors, adaptive browser strategies, distributed workers, and structured extraction pipelines.</p>
       <p><code>Stealth browsers</code> · <code>Fingerprint spoofing</code><br /><code>WAF evasion</code> · <code>Worker fleets</code></p>
     </td>
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <p><strong>🤖 Alfred</strong></p>
+      <p><strong><img src="assets/profile-icons/alfred.svg" alt="" width="19" height="19" /> Alfred</strong></p>
       <p>Control plane for multiple AI coding harnesses. Connects agent runtimes and model providers, handles account and model routing, manages budgets, and tracks execution across projects.</p>
       <p><code>Agent harnesses</code> · <code>Model routing</code><br /><code>Mission control</code> · <code>Budget telemetry</code></p>
     </td>
@@ -64,25 +64,25 @@ Some of the projects I'm working on, with a few nearing completion:
 
 | Project | Area | What it does |
 | :-- | :-- | :-- |
-| **🎯 Catalyst** | Job search · CRM | Job search and application manager that finds relevant opportunities, evaluates candidate fit, maps companies and hiring teams, tracks recruitment emails, and prepares tailored CVs and cover letters. |
-| **🧬 Ravel** | LLM access · APIs | Turns free-tier LLM services and web chat interfaces into programmable backends. Brings provider adapters, streaming, and conversations together through a common API. |
-| **🔭 Meridian** | Research · Discovery | Recursive research engine that uncovers overlooked sources, explores connected topics, deduplicates findings, and maps research landscapes until saturation. |
-| **🎞️ Panorama** | Content intelligence · Trends | Content intelligence hub that brings together creators, topics, formats, and emerging trends across platforms to map niches and support content discovery. |
-| **🧠 Synapse** | Knowledge graphs · Semantic search | Semantic knowledge engine connecting raw data into entities, relationships, embeddings, knowledge graphs, and reusable search context. |
-| **🗂️ Axone** | Content memory | Personal content memory that preserves saved posts, articles, and media across platforms, enriches the collection, and makes it searchable without manual filing. |
-| **🧩 Gandalf** | Agent collaboration | Shared collaboration layer for coding agents. Tracks agent presence, overlapping file changes, activity replay, and handoffs across concurrent coding sessions. Complements Alfred's harness routing without taking over task scheduling. |
-| **📶 Nexus** | Mobile proxies · Go | Mobile proxy gateway using ADB-connected Android phones, USB 4G/5G modems, or both. Centralizes device management, cellular routes, IP rotation, connection health, and bandwidth accounting. |
-| **🪪 Blink** | Account factory | Account factory for creating online accounts in batches. Handles provider-specific registrations, identity profiles, verification steps, account inventories, and lifecycle tracking. |
-| **🍳 Gusto** | Food · Optimization | Meal planner using food budgets, nutrition goals, taste preferences, and pantry stock to generate weekly menus, recipes, and optimized grocery lists. |
-| **📡 Bipper** | Security watch | Security monitoring dashboard tracking vulnerabilities, exploits, proof-of-concepts, research tools, and threat news from RSS feeds, specialist publications, and online communities. |
-| **🧪 CanvaC2** | Red Team · C2 | C2 framework, as the name suggests. Turns collaboration platforms into discreet command channels for session control, task dispatch, and operational telemetry. |
-| **📚 Rubicon** | Investigations · OSINT | Research platform for public affairs, controversial events, and historical cases. Organizes sources, compares conflicting claims, and reconstructs evidence through timelines, maps, and graphs. |
-| **🎨 Chroma** | Creative tools | Tools for generating, editing, and processing images, video, audio, and 3D assets. Connects AI models, editing utilities, and repeatable production workflows. |
-| **🎮 Persifleur** | Game development | Game development and reverse engineering laboratory. Studies game mechanics, engines, and system behavior to build original features, modding tools, and reusable components. |
+| **<img src="assets/profile-icons/catalyst.svg" alt="" width="19" height="19" /> Catalyst** | Job search · CRM | Job search and application manager that finds relevant opportunities, evaluates candidate fit, maps companies and hiring teams, tracks recruitment emails, and prepares tailored CVs and cover letters. |
+| **<img src="assets/profile-icons/ravel.svg" alt="" width="19" height="19" /> Ravel** | LLM access · APIs | Turns free-tier LLM services and web chat interfaces into programmable backends. Brings provider adapters, streaming, and conversations together through a common API. |
+| **<img src="assets/profile-icons/meridian.svg" alt="" width="19" height="19" /> Meridian** | Research · Discovery | Recursive research engine that uncovers overlooked sources, explores connected topics, deduplicates findings, and maps research landscapes until saturation. |
+| **<img src="assets/profile-icons/panorama.svg" alt="" width="19" height="19" /> Panorama** | Content intelligence · Trends | Content intelligence hub that brings together creators, topics, formats, and emerging trends across platforms to map niches and support content discovery. |
+| **<img src="assets/profile-icons/synapse.svg" alt="" width="19" height="19" /> Synapse** | Knowledge graphs · Semantic search | Semantic knowledge engine connecting raw data into entities, relationships, embeddings, knowledge graphs, and reusable search context. |
+| **<img src="assets/profile-icons/axone.svg" alt="" width="19" height="19" /> Axone** | Content memory | Personal content memory that preserves saved posts, articles, and media across platforms, enriches the collection, and makes it searchable without manual filing. |
+| **<img src="assets/profile-icons/gandalf.svg" alt="" width="19" height="19" /> Gandalf** | Agent collaboration | Shared collaboration layer for coding agents. Tracks agent presence, overlapping file changes, activity replay, and handoffs across concurrent coding sessions. Complements Alfred's harness routing without taking over task scheduling. |
+| **<img src="assets/profile-icons/nexus.svg" alt="" width="19" height="19" /> Nexus** | Mobile proxies · Go | Mobile proxy gateway using ADB-connected Android phones, USB 4G/5G modems, or both. Centralizes device management, cellular routes, IP rotation, connection health, and bandwidth accounting. |
+| **<img src="assets/profile-icons/blink.svg" alt="" width="19" height="19" /> Blink** | Account factory | Account factory for creating online accounts in batches. Handles provider-specific registrations, identity profiles, verification steps, account inventories, and lifecycle tracking. |
+| **<img src="assets/profile-icons/gusto.svg" alt="" width="19" height="19" /> Gusto** | Food · Optimization | Meal planner using food budgets, nutrition goals, taste preferences, and pantry stock to generate weekly menus, recipes, and optimized grocery lists. |
+| **<img src="assets/profile-icons/bipper.svg" alt="" width="19" height="19" /> Bipper** | Security watch | Security monitoring dashboard tracking vulnerabilities, exploits, proof-of-concepts, research tools, and threat news from RSS feeds, specialist publications, and online communities. |
+| **<img src="assets/profile-icons/canvac2.svg" alt="" width="19" height="19" /> CanvaC2** | Red Team · C2 | C2 framework, as the name suggests. Turns collaboration platforms into discreet command channels for session control, task dispatch, and operational telemetry. |
+| **<img src="assets/profile-icons/rubicon.svg" alt="" width="19" height="19" /> Rubicon** | Investigations · OSINT | Research platform for public affairs, controversial events, and historical cases. Organizes sources, compares conflicting claims, and reconstructs evidence through timelines, maps, and graphs. |
+| **<img src="assets/profile-icons/chroma.svg" alt="" width="19" height="19" /> Chroma** | Creative tools | Tools for generating, editing, and processing images, video, audio, and 3D assets. Connects AI models, editing utilities, and repeatable production workflows. |
+| **<img src="assets/profile-icons/persifleur.svg" alt="" width="19" height="19" /> Persifleur** | Game development | Game development and reverse engineering laboratory. Studies game mechanics, engines, and system behavior to build original features, modding tools, and reusable components. |
 | **REDACTED** | Market intelligence · Crypto | Market intelligence platform tracking token mindshare, sentiment shifts, and emerging narratives across social platforms and financial news. |
-| **📈 YATTA** | Trading · Automation | Yet Another Trading Tool Agent. Brings together market research, strategy evaluation, risk controls, and automated trading workflows. |
+| **<img src="assets/profile-icons/yatta.svg" alt="" width="19" height="19" /> YATTA** | Trading · Automation | Yet Another Trading Tool Agent. Brings together market research, strategy evaluation, risk controls, and automated trading workflows. |
 
-<p><strong>🛠 Tech stack</strong></p>
+<p><strong><img src="assets/profile-icons/stack.svg" alt="" width="19" height="19" /> Tech stack</strong></p>
 
 **Languages**
 <p>
