@@ -33,7 +33,7 @@ Here is a selection of what I'm building.
     </td>
     <td width="50%" valign="top">
       <p><strong>🦅 Falcon</strong></p>
-      <p>Reconnaissance engine built for the hostile web. Combines stealth browser automation, rotating proxy pools, distributed workers, and resilient extraction pipelines to collect structured intelligence from difficult websites, APIs, and bot-protected sources.</p>
+      <p>Web data acquisition engine built for the hostile web. Orchestrates collection across websites, APIs, and Git sources, combining modular connectors, adaptive browser strategies, distributed workers, and structured extraction pipelines.</p>
       <p><code>Stealth browsers</code> · <code>Fingerprint spoofing</code><br /><code>WAF evasion</code> · <code>Worker fleets</code></p>
     </td>
   </tr>
