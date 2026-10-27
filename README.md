@@ -1,7 +1,7 @@
 <p align="center"><big><big><strong>Karnalito</strong></big></big></p>
 
 <p align="center">
-  <sub>OSINT &nbsp; / &nbsp; CTI &nbsp; / &nbsp; INFORMATION WARFARE</sub>
+  <sub>OSINT &nbsp; / &nbsp; CTI &nbsp; / &nbsp; INTEL WARFARE</sub>
 </p>
 
 <p align="center">
@@ -64,23 +64,23 @@ Some of the projects I'm working on, with a few nearing completion:
 
 | Project | Area | What it does |
 | :-- | :-- | :-- |
-| **🎯 Catalyst** | Job search · CRM | Job search and application manager that finds relevant opportunities, evaluates candidate fit, maps companies and hiring teams, tracks recruitment emails, and prepares tailored CVs and cover letters. |
-| **🧬 Ravel** | LLM access · APIs | Turns free-tier LLM services and web chat interfaces into programmable backends. Brings provider adapters, streaming, and conversations together through a common API. |
 | **🔭 Meridian** | Research · Discovery | Recursive research engine that uncovers overlooked sources, explores connected topics, deduplicates findings, and maps research landscapes until saturation. |
+| **📡 Bipper** | Security watch | Security monitoring dashboard tracking vulnerabilities, exploits, proof-of-concepts, research tools, and threat news from RSS feeds, specialist publications, and online communities. |
+| **📚 Rubicon** | Investigations · OSINT | Research platform for public affairs, controversial events, and historical cases. Organizes sources, compares conflicting claims, and reconstructs evidence through timelines, maps, and graphs. |
+| **🧪 CanvaC2** | Red Team · C2 | C2 framework, as the name suggests. Turns collaboration platforms into discreet command channels for session control, task dispatch, and operational telemetry. |
 | **🎞️ Panorama** | Content intelligence · Trends | Content intelligence hub that brings together creators, topics, formats, and emerging trends across platforms to map niches and support content discovery. |
 | **🧠 Synapse** | Knowledge graphs · Semantic search | Semantic knowledge engine connecting raw data into entities, relationships, embeddings, knowledge graphs, and reusable search context. |
 | **🗂️ Axone** | Content memory | Personal content memory that preserves saved posts, articles, and media across platforms, enriches the collection, and makes it searchable without manual filing. |
+| **🧬 Ravel** | LLM access · APIs | Turns free-tier LLM services and web chat interfaces into programmable backends. Brings provider adapters, streaming, and conversations together through a common API. |
 | **🧩 Gandalf** | Agent collaboration | Shared collaboration layer for coding agents. Tracks agent presence, overlapping file changes, activity replay, and handoffs across concurrent coding sessions. Complements Alfred's harness routing without taking over task scheduling. |
 | **📶 Nexus** | Mobile proxies · Go | Mobile proxy gateway using ADB-connected Android phones, USB 4G/5G modems, or both. Centralizes device management, cellular routes, IP rotation, connection health, and bandwidth accounting. |
 | **🪪 Blink** | Account factory | Account factory for creating online accounts in batches. Handles provider-specific registrations, identity profiles, verification steps, account inventories, and lifecycle tracking. |
+| **🎯 Catalyst** | Job search · CRM | Job search and application manager that finds relevant opportunities, evaluates candidate fit, maps companies and hiring teams, tracks recruitment emails, and prepares tailored CVs and cover letters. |
 | **🍳 Gusto** | Food · Optimization | Meal planner using food budgets, nutrition goals, taste preferences, and pantry stock to generate weekly menus, recipes, and optimized grocery lists. |
-| **📡 Bipper** | Security watch | Security monitoring dashboard tracking vulnerabilities, exploits, proof-of-concepts, research tools, and threat news from RSS feeds, specialist publications, and online communities. |
-| **🧪 CanvaC2** | Red Team · C2 | C2 framework, as the name suggests. Turns collaboration platforms into discreet command channels for session control, task dispatch, and operational telemetry. |
-| **📚 Rubicon** | Investigations · OSINT | Research platform for public affairs, controversial events, and historical cases. Organizes sources, compares conflicting claims, and reconstructs evidence through timelines, maps, and graphs. |
-| **🎨 Chroma** | Creative tools | Tools for generating, editing, and processing images, video, audio, and 3D assets. Connects AI models, editing utilities, and repeatable production workflows. |
-| **🎮 Persifleur** | Game development | Game development and reverse engineering laboratory. Studies game mechanics, engines, and system behavior to build original features, modding tools, and reusable components. |
 | **REDACTED** | Market intelligence · Crypto | Market intelligence platform tracking token mindshare, sentiment shifts, and emerging narratives across social platforms and financial news. |
 | **📈 YATTA** | Trading · Automation | Yet Another Trading Tool Agent. Brings together market research, strategy evaluation, risk controls, and automated trading workflows. |
+| **🎨 Chroma** | Creative tools | Tools for generating, editing, and processing images, video, audio, and 3D assets. Connects AI models, editing utilities, and repeatable production workflows. |
+| **🎮 Persifleur** | Game development | Game development and reverse engineering laboratory. Studies game mechanics, engines, and system behavior to build original features, modding tools, and reusable components. |
 
 <p><strong>🛠 Tech stack</strong></p>
 
