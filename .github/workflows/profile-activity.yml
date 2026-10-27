@@ -42,6 +42,8 @@ jobs:
           cp assets/contributions-dark.svg "$RUNNER_TEMP/profile-dark.svg"
           cp assets/contributions-light.svg "$RUNNER_TEMP/profile-light.svg"
           for attempt in 1 2 3; do
+            # Drop only transient generated edits (artifacts are saved in RUNNER_TEMP).
+            git reset --hard -q
             git fetch --quiet origin main
             git checkout -q -B main origin/main
             cp "$RUNNER_TEMP/profile-dark.svg" assets/contributions-dark.svg
