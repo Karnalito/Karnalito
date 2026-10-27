@@ -2,12 +2,14 @@ name: Refresh contribution artwork
 on:
   workflow_dispatch:
   schedule:
-    - cron: '19 5 * * *'
+    - cron: '7,22,37,52 * * * *'
   push:
     paths:
       - '.github/workflows/profile-activity.yml'
       - 'scripts/render-contributions.mjs'
       - 'scripts/render-contributions.test.mjs'
+      - 'scripts/version-contributions.mjs'
+      - 'scripts/version-contributions.test.mjs'
 permissions:
   contents: write
 concurrency:
@@ -23,15 +25,17 @@ jobs:
         with:
           node-version: '20'
       - name: Verify SVG generator
-        run: node --test scripts/render-contributions.test.mjs
+        run: node --test scripts/render-contributions.test.mjs scripts/version-contributions.test.mjs
       - name: Generate current contribution visuals
         run: node scripts/render-contributions.mjs
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           PROFILE_LOGIN: Karnalito
-      - name: Commit refreshed SVGs
+      - name: Version image URLs to avoid stale GitHub image cache
+        run: node scripts/version-contributions.mjs
+      - name: Commit refreshed SVGs and image references
         run: |
-          git add assets/contributions-dark.svg assets/contributions-light.svg
+          git add README.md assets/contributions-dark.svg assets/contributions-light.svg
           if git diff --cached --quiet; then exit 0; fi
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore(profile): refresh activity dashboard [skip ci]'
           git push

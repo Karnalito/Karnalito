@@ -38,7 +38,7 @@ test('SMIL animation uses measured data and never changes the contribution total
  const m=dataModel(c,new Date('2026-10-27T10:00:00Z'));
  for(const theme of ['dark','light']){
    const svg=render(m,theme);
-   assert.match(svg,/UPDATED DAILY/);
+   assert.match(svg,/REFRESHED ABOUT EVERY 15 MIN/);
    assert.match(svg,/attributeName="x"/);
    assert.match(svg,/attributeName="stroke-opacity"/);
    assert.match(svg,/attributeName="opacity"/);
