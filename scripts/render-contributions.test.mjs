@@ -29,6 +29,20 @@ test('both SVG themes provide accessible safe vector graphics',()=>{
   assert.match(svg,/aria-labelledby="activity-title activity-desc"/);
   assert.match(svg,/FIELD REPORT/);assert.match(svg,/CONTRIBUTION MATRIX/);
   assert.ok((svg.match(/<rect /g)||[]).length>=365);
-  assert.doesNotMatch(svg,/<script|<foreignObject|<animate/);
+  assert.doesNotMatch(svg,/<script|<foreignObject|@keyframes/);
+ }
+});
+test('SMIL animation uses measured data and never changes the contribution total',()=>{
+ const c=sample();
+ c.weeks[0].contributionDays.at(-1).contributionCount=2;
+ const m=dataModel(c,new Date('2026-10-27T10:00:00Z'));
+ for(const theme of ['dark','light']){
+   const svg=render(m,theme);
+   assert.match(svg,/UPDATED DAILY/);
+   assert.match(svg,/attributeName="x"/);
+   assert.match(svg,/attributeName="stroke-opacity"/);
+   assert.match(svg,/attributeName="opacity"/);
+   assert.match(svg,/2 contributions/);
+   assert.doesNotMatch(svg,/<script|<foreignObject/);
  }
 });

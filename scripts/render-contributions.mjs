@@ -41,11 +41,11 @@ export function render(model,themeName){
   const out=['<svg xmlns="http://www.w3.org/2000/svg" width="1056" height="315" viewBox="0 0 1056 315" role="img" aria-labelledby="activity-title activity-desc">'];
   out.push('<title id="activity-title">Karnalito GitHub activity, past 365 days</title>');
   out.push('<desc id="activity-desc">'+xml(format(total)+' contributions, '+activeDays+' active days, '+current+' day current streak, '+longest+' day longest streak.')+'</desc>');
-  out.push('<defs><linearGradient id="bar" x1="0" x2="1"><stop offset="0%" stop-color="'+c.accent+'"/><stop offset="100%" stop-color="'+c.violet+'"/></linearGradient></defs>');
+  out.push('<defs><linearGradient id="bar" x1="0" x2="1"><stop offset="0%" stop-color="'+c.accent+'"/><stop offset="100%" stop-color="'+c.violet+'"/></linearGradient><linearGradient id="scan"><stop offset="0%" stop-color="'+c.accent+'" stop-opacity="0"/><stop offset="50%" stop-color="'+c.accent+'" stop-opacity="0.18"/><stop offset="100%" stop-color="'+c.accent+'" stop-opacity="0"/></linearGradient><clipPath id="matrix-clip"><rect x="308" y="144" width="681" height="92" rx="3"/></clipPath></defs>');
   out.push(square(1,1,1054,313,c.bg,18,'stroke="'+c.line+'" stroke-width="1.5"'));
   out.push(square(23,23,1010,270,c.panel,12));out.push(square(23,23,4,270,'url(#bar)',2));
   out.push(label(48,51,'FIELD REPORT  /  ACTIVITY INTELLIGENCE',12,c.accent,700,1.9));
-  out.push(label(1005,51,'LAST 365 DAYS  /  UTC',11,c.muted,600,1.1,'end'));
+  out.push(label(987,51,'UPDATED DAILY  /  UTC',11,c.muted,600,1.1,'end'));out.push('<circle cx="1005" cy="46" r="3.5" fill="'+c.accent+'"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite"/></circle>');
   out.push('<path d="M 48 65 H 1008" stroke="'+c.line+'"/>');
   out.push(label(48,107,'TOTAL CONTRIBUTIONS',12,c.muted,700,1.2));
   out.push(label(48,165,format(total),49,c.bright,750));
@@ -63,6 +63,14 @@ export function render(model,themeName){
     out.push(square(x.toFixed(1),y.toFixed(1),9.7,9.7,c.levels[bucket],2));
     const ym=entry.date.slice(0,7);
     if(ym!==month){month=ym;if(x-lastMonthX>36){out.push(label(x.toFixed(1),132,date.toLocaleDateString('en-US',{month:'short',timeZone:'UTC'}).toUpperCase(),10,c.muted,600));lastMonthX=x;}}
+  }
+  out.push('<g clip-path="url(#matrix-clip)" pointer-events="none"><rect x="275" y="145" width="44" height="89" fill="url(#scan)"><animate attributeName="x" values="275;1012" dur="18s" repeatCount="indefinite"/></rect></g>');
+  const latest=days.findLast(entry=>entry.count>0);
+  if(latest){
+    const date=new Date(latest.date+'T00:00:00Z');
+    const delta=Math.round((date.getTime()-first.getTime())/DAY);
+    const x=(311+Math.floor(delta/7)*12.75).toFixed(1),y=(148+date.getUTCDay()*12.75).toFixed(1);
+    out.push('<rect x="'+x+'" y="'+y+'" width="9.7" height="9.7" rx="2" fill="none" stroke="'+c.accent+'" stroke-width="1.25"><animate attributeName="stroke-opacity" values="0.2;1;0.2" dur="3.6s" repeatCount="indefinite"/></rect>');
   }
   out.push(label(296,165,'S',10,c.muted));out.push(label(296,203,'W',10,c.muted));out.push(label(296,241,'S',10,c.muted));
   out.push(label(48,232,'ACTIVE DAYS',11,c.muted,650,1));
