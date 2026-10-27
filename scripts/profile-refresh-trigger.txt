@@ -1,0 +1,4 @@
+# GitHub profile dashboard external scheduler fallback.
+# A connected hourly watchdog updates this file only when refresh runs are stale.
+# Changes here trigger the existing workflow via push on main.
+last_recovery_request_utc=bootstrap
