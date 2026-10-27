@@ -1,0 +1,41 @@
+name: Profile refresh watchdog
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '47 * * * *'
+permissions:
+  actions: write
+  contents: read
+concurrency:
+  group: profile-refresh-watchdog
+  cancel-in-progress: false
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Check latest refresh runs and recover if stale
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GH_REPO: ${{ github.repository }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          now=$(date -u +%s)
+          runs=$(gh api "repos/$GH_REPO/actions/workflows/profile-activity.yml/runs?branch=main&per_page=100")
+          recent_success=$(jq --argjson now "$now" '[.workflow_runs[] | select(.conclusion=="success" and (.event=="schedule" or .event=="push" or .event=="workflow_dispatch")) | select((.updated_at | fromdateiso8601) >= ($now-4200))] | length' <<<"$runs")
+          recent_running=$(jq --argjson now "$now" '[.workflow_runs[] | select(.status=="queued" or .status=="in_progress") | select((.created_at | fromdateiso8601) >= ($now-1500))] | length' <<<"$runs")
+          if (( recent_success > 0 || recent_running > 0 )); then
+            echo "Refresh is recent or running; no recovery needed."
+            exit 0
+          fi
+          echo "::warning::No recent successful or active profile refresh; dispatching recovery."
+          gh api -X POST "repos/$GH_REPO/actions/workflows/profile-activity.yml/dispatches" -f ref=main
+          sleep 15
+          after=$(gh api "repos/$GH_REPO/actions/workflows/profile-activity.yml/runs?branch=main&per_page=20")
+          found=$(jq --argjson now "$now" '[.workflow_runs[] | select(.event=="workflow_dispatch") | select((.created_at | fromdateiso8601) >= ($now-60))] | length' <<<"$after")
+          if (( found == 0 )); then
+            echo "::error::Recovery dispatched but no new workflow run visible yet."
+            exit 1
+          fi
+          echo "Recovery run detected."
