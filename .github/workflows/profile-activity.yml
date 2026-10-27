@@ -37,10 +37,31 @@ jobs:
         run: node scripts/version-contributions.mjs
       - name: Commit refreshed SVGs and image references
         run: |
-          git add README.md assets/contributions-dark.svg assets/contributions-light.svg
-          if git diff --cached --quiet; then exit 0; fi
-          git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore(profile): refresh activity dashboard [skip ci]'
-          git push
+          # Preserve freshly rendered artifacts while rebasing the publishing step
+          # on the newest main. A watchdog pulse and a scheduled run may overlap.
+          cp assets/contributions-dark.svg "$RUNNER_TEMP/profile-dark.svg"
+          cp assets/contributions-light.svg "$RUNNER_TEMP/profile-light.svg"
+          for attempt in 1 2 3; do
+            git fetch --quiet origin main
+            git checkout -q -B main origin/main
+            cp "$RUNNER_TEMP/profile-dark.svg" assets/contributions-dark.svg
+            cp "$RUNNER_TEMP/profile-light.svg" assets/contributions-light.svg
+            node scripts/version-contributions.mjs
+            git add README.md assets/contributions-dark.svg assets/contributions-light.svg
+            if git diff --cached --quiet; then
+              echo "Dashboard already current"
+              exit 0
+            fi
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore(profile): refresh activity dashboard [skip ci]'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Dashboard push failed after three bounded attempts" >&2
+              exit 1
+            fi
+            sleep "$attempt"
+          done
       - name: Log completion and trigger for auditing
         if: always()
         run: |
