@@ -2,8 +2,9 @@ name: Refresh contribution artwork
 on:
   workflow_dispatch:
   schedule:
-    - cron: '9,24,39,54 * * * *'
+    - cron: '23 * * * *' # hourly UTC, away from :00 load spike
   push:
+    branches: [main]
     paths:
       - '.github/workflows/profile-activity.yml'
       - 'scripts/render-contributions.mjs'
@@ -18,7 +19,7 @@ concurrency:
 jobs:
   refresh:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
@@ -39,3 +40,10 @@ jobs:
           if git diff --cached --quiet; then exit 0; fi
           git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore(profile): refresh activity dashboard [skip ci]'
           git push
+      - name: Log completion and trigger for auditing
+        if: always()
+        run: |
+          echo "### Profile dashboard job" >> "$GITHUB_STEP_SUMMARY"
+          echo "Trigger: $GITHUB_EVENT_NAME" >> "$GITHUB_STEP_SUMMARY"
+          echo "Run ID: $GITHUB_RUN_ID" >> "$GITHUB_STEP_SUMMARY"
+          echo "Recorded at (UTC): $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_STEP_SUMMARY"

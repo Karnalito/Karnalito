@@ -45,7 +45,7 @@ export function render(model,themeName){
   out.push(square(1,1,1054,313,c.bg,18,'stroke="'+c.line+'" stroke-width="1.5"'));
   out.push(square(23,23,1010,270,c.panel,12));out.push(square(23,23,4,270,'url(#bar)',2));
   out.push(label(48,51,'FIELD REPORT  /  ACTIVITY INTELLIGENCE',12,c.accent,700,1.9));
-  out.push(label(987,51,'REFRESHED ABOUT EVERY 15 MIN  /  UTC',11,c.muted,600,1.1,'end'));out.push('<circle cx="1005" cy="46" r="3.5" fill="'+c.accent+'"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite"/></circle>');
+  out.push(label(987,51,'HOURLY REFRESH TARGET  /  UTC',11,c.muted,600,1.1,'end'));out.push('<circle cx="1005" cy="46" r="3.5" fill="'+c.accent+'"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite"/></circle>');
   out.push('<path d="M 48 65 H 1008" stroke="'+c.line+'"/>');
   out.push(label(48,107,'TOTAL CONTRIBUTIONS',12,c.muted,700,1.2));
   out.push(label(48,165,format(total),49,c.bright,750));
