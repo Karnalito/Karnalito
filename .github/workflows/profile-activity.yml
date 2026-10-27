@@ -11,6 +11,7 @@ on:
       - 'scripts/render-contributions.test.mjs'
       - 'scripts/version-contributions.mjs'
       - 'scripts/version-contributions.test.mjs'
+      - 'scripts/profile-refresh-trigger.txt' # external watchdog recovery pulse
 permissions:
   contents: write
 concurrency:
