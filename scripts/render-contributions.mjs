@@ -96,7 +96,8 @@ async function main(){
  if(json.errors?.length)throw Error(json.errors.map(e=>e.message).join('; '));
  const model=dataModel(json.data?.user?.contributionsCollection?.contributionCalendar);
  await fs.mkdir('assets',{recursive:true});
- for(const t of ['dark','light'])await fs.writeFile('assets/contributions-'+t+'.svg',render(model,t)+'\n');
+ const renderedAt=new Date();
+ for(const t of ['dark','light'])await fs.writeFile('assets/contributions-'+t+'.svg',render(model,t,renderedAt)+'\n');
  console.log('Refreshed dashboard: '+model.total+' contributions / '+model.activeDays+' active days');
 }
 if(process.argv[1]?.endsWith('render-contributions.mjs'))main().catch(e=>{console.error(e);process.exitCode=1;});
