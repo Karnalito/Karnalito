@@ -38,11 +38,24 @@ test('SMIL animation uses measured data and never changes the contribution total
  const m=dataModel(c,new Date('2026-10-27T10:00:00Z'));
  for(const theme of ['dark','light']){
    const svg=render(m,theme);
-   assert.match(svg,/HOURLY REFRESH TARGET/);
+   assert.match(svg,/UPDATED  20\\d{2}-\\d{2}-\\d{2} \\d{2}:\\d{2} UTC/);
    assert.match(svg,/attributeName="x"/);
    assert.match(svg,/attributeName="stroke-opacity"/);
    assert.match(svg,/attributeName="opacity"/);
    assert.match(svg,/2 contributions/);
    assert.doesNotMatch(svg,/<script|<foreignObject/);
+ }
+});
+
+test('refresh time is visible and changes SVG bytes independently of contribution counts',()=>{
+ const m=dataModel(sample(),new Date('2026-10-27T10:00:00Z'));
+ for(const theme of ['dark','light']){
+  const first=render(m,theme,new Date('2026-10-27T10:00:00Z'));
+  const later=render(m,theme,new Date('2026-10-27T16:00:00Z'));
+  assert.match(first,/>UPDATED  2026-10-27 10:00 UTC<\/text>/);
+  assert.match(later,/>UPDATED  2026-10-27 16:00 UTC<\/text>/);
+  assert.notEqual(first,later);
+  assert.match(first,/0 contributions/);
+  assert.match(later,/0 contributions/);
  }
 });
