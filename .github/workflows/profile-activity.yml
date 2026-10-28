@@ -2,7 +2,7 @@ name: Refresh contribution artwork
 on:
   workflow_dispatch:
   schedule:
-    - cron: '23 * * * *' # hourly UTC, away from :00 load spike
+    - cron: '17 1,7,13,19 * * *' # every 6 hours UTC, away from :00 load spike
   push:
     branches: [main]
     paths:
