@@ -29,7 +29,15 @@ jobs:
           runs=$(gh api "repos/$GH_REPO/actions/workflows/profile-activity.yml/runs?branch=main&per_page=100")
           recent_success=$(jq --argjson now "$now" '[.workflow_runs[] | select(.conclusion=="success" and (.event=="schedule" or .event=="push" or .event=="workflow_dispatch")) | select((.updated_at | fromdateiso8601) >= ($now-21600))] | length' <<<"$runs")
           recent_running=$(jq --argjson now "$now" '[.workflow_runs[] | select(.status=="queued" or .status=="in_progress") | select((.created_at | fromdateiso8601) >= ($now-1800))] | length' <<<"$runs")
-          if (( recent_success > 0 || recent_running > 0 )); then
+          # One-shot push smoke test: prove recovery without waiting six hours.
+          force_test=0
+          if [[ "$GITHUB_EVENT_NAME" == "push" ]]; then
+            commit_message=$(jq -r '.head_commit.message // ""' "$GITHUB_EVENT_PATH")
+            if [[ "$commit_message" == "test(profile): exercise recovery path" ]]; then
+              force_test=1
+            fi
+          fi
+          if (( force_test == 0 && (recent_success > 0 || recent_running > 0) )); then
             echo "Recent successful refresh or active run; no dispatch required."
             exit 0
           fi
