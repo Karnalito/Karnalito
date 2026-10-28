@@ -2,7 +2,7 @@ name: Profile refresh watchdog
 on:
   workflow_dispatch:
   schedule:
-    - cron: '47 * * * *'
+    - cron: '43 */2 * * *' # every 2h UTC, offset from six-hour primary job
 permissions:
   actions: write
   contents: read
@@ -12,9 +12,9 @@ concurrency:
 jobs:
   check:
     runs-on: ubuntu-latest
-    timeout-minutes: 5
+    timeout-minutes: 8
     steps:
-      - name: Check latest refresh runs and recover if stale
+      - name: Check published artwork and recover stale runs
         env:
           GH_TOKEN: ${{ github.token }}
           GH_REPO: ${{ github.repository }}
@@ -23,19 +23,50 @@ jobs:
           set -euo pipefail
           now=$(date -u +%s)
           runs=$(gh api "repos/$GH_REPO/actions/workflows/profile-activity.yml/runs?branch=main&per_page=100")
-          recent_success=$(jq --argjson now "$now" '[.workflow_runs[] | select(.conclusion=="success" and (.event=="schedule" or .event=="push" or .event=="workflow_dispatch")) | select((.updated_at | fromdateiso8601) >= ($now-4200))] | length' <<<"$runs")
-          recent_running=$(jq --argjson now "$now" '[.workflow_runs[] | select(.status=="queued" or .status=="in_progress") | select((.created_at | fromdateiso8601) >= ($now-1500))] | length' <<<"$runs")
+          recent_success=$(jq --argjson now "$now" '[.workflow_runs[] | select(.conclusion=="success" and (.event=="schedule" or .event=="push" or .event=="workflow_dispatch")) | select((.updated_at | fromdateiso8601) >= ($now-21600))] | length' <<<"$runs")
+          recent_running=$(jq --argjson now "$now" '[.workflow_runs[] | select(.status=="queued" or .status=="in_progress") | select((.created_at | fromdateiso8601) >= ($now-1800))] | length' <<<"$runs")
           if (( recent_success > 0 || recent_running > 0 )); then
-            echo "Refresh is recent or running; no recovery needed."
+            echo "Recent successful refresh or active run; no dispatch required."
             exit 0
           fi
-          echo "::warning::No recent successful or active profile refresh; dispatching recovery."
+
+          echo "::warning::No successful refresh in six hours; dispatching recovery."
+          previous_run_id=$(jq -r '[.workflow_runs[].id] | max // 0' <<<"$runs")
+          before_dark=$(gh api "repos/$GH_REPO/contents/assets/contributions-dark.svg?ref=main" --jq '.sha')
+          before_light=$(gh api "repos/$GH_REPO/contents/assets/contributions-light.svg?ref=main" --jq '.sha')
+          before_readme=$(gh api "repos/$GH_REPO/contents/README.md?ref=main" --jq '.sha')
           gh api -X POST "repos/$GH_REPO/actions/workflows/profile-activity.yml/dispatches" -f ref=main
-          sleep 15
-          after=$(gh api "repos/$GH_REPO/actions/workflows/profile-activity.yml/runs?branch=main&per_page=20")
-          found=$(jq --argjson now "$now" '[.workflow_runs[] | select(.event=="workflow_dispatch") | select((.created_at | fromdateiso8601) >= ($now-60))] | length' <<<"$after")
-          if (( found == 0 )); then
-            echo "::error::Recovery dispatched but no new workflow run visible yet."
-            exit 1
-          fi
-          echo "Recovery run detected."
+
+          # Do not mark a dispatch successful unless the actual SVG publication succeeds.
+          for attempt in $(seq 1 24); do
+            sleep 10
+            after=$(gh api "repos/$GH_REPO/actions/workflows/profile-activity.yml/runs?branch=main&per_page=30")
+            run=$(jq -c --argjson prev "$previous_run_id" '[.workflow_runs[] | select(.id > $prev and .event=="workflow_dispatch")] | sort_by(.id) | last // empty' <<<"$after")
+            if [[ -z "$run" ]]; then
+              continue
+            fi
+            run_id=$(jq -r '.id' <<<"$run")
+            status=$(jq -r '.status' <<<"$run")
+            if [[ "$status" != "completed" ]]; then
+              continue
+            fi
+            conclusion=$(jq -r '.conclusion' <<<"$run")
+            run_url=$(jq -r '.html_url' <<<"$run")
+            if [[ "$conclusion" != "success" ]]; then
+              echo "::error::Recovery workflow failed ($conclusion): $run_url"
+              exit 1
+            fi
+
+            after_dark=$(gh api "repos/$GH_REPO/contents/assets/contributions-dark.svg?ref=main" --jq '.sha')
+            after_light=$(gh api "repos/$GH_REPO/contents/assets/contributions-light.svg?ref=main" --jq '.sha')
+            after_readme=$(gh api "repos/$GH_REPO/contents/README.md?ref=main" --jq '.sha')
+            if [[ "$before_dark" == "$after_dark" || "$before_light" == "$after_light" || "$before_readme" == "$after_readme" ]]; then
+              echo "::error::Refresh run succeeded but SVGs or README version did not change: $run_url"
+              exit 1
+            fi
+            echo "Recovery published new dark/light SVGs and README image version: $run_url"
+            exit 0
+          done
+
+          echo "::error::Recovery was dispatched but publication was not confirmed within four minutes."
+          exit 1
