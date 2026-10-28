@@ -1,6 +1,10 @@
 name: Profile refresh watchdog
 on:
   workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-refresh-watchdog.yml' # smoke test when updated
   schedule:
     - cron: '43 */2 * * *' # every 2h UTC, offset from six-hour primary job
 permissions:
