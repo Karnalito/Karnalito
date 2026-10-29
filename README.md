@@ -53,8 +53,8 @@ Here is a selection of what I'm building.
 
 <p align="center">
   <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg?v=faa4273d606e" />
-    <img src="assets/contributions-light.svg?v=faa4273d606e" alt="Contribution dashboard: live annual total, daily activity heatmap, active days and streaks" width="100%" />
+    <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg?v=a780b547a4be" />
+    <img src="assets/contributions-light.svg?v=a780b547a4be" alt="Contribution dashboard: live annual total, daily activity heatmap, active days and streaks" width="100%" />
   </picture>
 </p>
 
