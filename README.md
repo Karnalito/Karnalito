@@ -110,7 +110,7 @@ Some of the projects I'm working on, with a few nearing completion:
 <p>
   <img src="https://img.shields.io/badge/-React-149ECA?style=flat-square&logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/-Next.js-222432?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
-  <img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind_CSS" />
+  <img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
 </p>
 
 **Systems & tools**
