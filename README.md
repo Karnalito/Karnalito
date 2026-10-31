@@ -92,6 +92,7 @@ Some of the projects I'm working on, with a few nearing completion:
   <img src="https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
   <img src="https://img.shields.io/badge/-Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
   <img src="https://img.shields.io/badge/-Bash-4E5481?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/-PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
 </p>
 
 **Backend & data**
@@ -99,6 +100,12 @@ Some of the projects I'm working on, with a few nearing completion:
   <img src="https://img.shields.io/badge/-FastAPI-414C78?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
   <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
   <img src="https://img.shields.io/badge/-Redis-6D5A9E?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
+
+**Frontend**
+<p>
+  <img src="https://img.shields.io/badge/-React-149ECA?style=flat-square&logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/-Next.js-222432?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
 </p>
 
