@@ -98,7 +98,10 @@ Some of the projects I'm working on, with a few nearing completion:
 **Backend & data**
 <p>
   <img src="https://img.shields.io/badge/-FastAPI-414C78?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-  <img src="https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/-Pydantic-E92063?style=flat-square&logo=pydantic&logoColor=white" alt="Pydantic" />
+  <img src="https://img.shields.io/badge/-SQLAlchemy-D71F00?style=flat-square&logo=sqlalchemy&logoColor=white" alt="SQLAlchemy" />
+  <img src="https://img.shields.io/badge/-Alembic-795548?style=flat-square&logo=python&logoColor=white" alt="Alembic" />
+  <img src="https://img.shields.io/badge/-PostGIS-589632?style=flat-square&logo=postgis&logoColor=white" alt="PostGIS" />
   <img src="https://img.shields.io/badge/-Redis-6D5A9E?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
   <img src="https://img.shields.io/badge/-SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
 </p>
@@ -107,6 +110,7 @@ Some of the projects I'm working on, with a few nearing completion:
 <p>
   <img src="https://img.shields.io/badge/-React-149ECA?style=flat-square&logo=react&logoColor=white" alt="React" />
   <img src="https://img.shields.io/badge/-Next.js-222432?style=flat-square&logo=nextdotjs&logoColor=white" alt="Next.js" />
+  <img src="https://img.shields.io/badge/-Tailwind_CSS-06B6D4?style=flat-square&logo=tailwindcss&logoColor=white" alt="Tailwind_CSS" />
 </p>
 
 **Systems & tools**
