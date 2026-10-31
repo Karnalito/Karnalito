@@ -65,6 +65,7 @@ Some of the projects I'm working on, with a few nearing completion:
 | Project | Area | What it does |
 | :-- | :-- | :-- |
 | **🎯 Catalyst** | Job search · CRM | Job search and application manager that finds relevant opportunities, evaluates candidate fit, maps companies and hiring teams, tracks recruitment emails, and prepares tailored CVs and cover letters. |
+| **🏛️ Apex** | Prospecting · Market Intelligence · Public Procurement | Prospecting and business intelligence platform designed to identify, qualify, and track commercial opportunities across French private and public markets. Combines company intelligence, public procurement data, explainable opportunity scoring, and evidence-based lead qualification. |
 | **🧬 Ravel** | LLM access · APIs | Turns free-tier LLM services and web chat interfaces into programmable backends. Brings provider adapters, streaming, and conversations together through a common API. |
 | **🔭 Meridian** | Research · Discovery | Recursive research engine that uncovers overlooked sources, explores connected topics, deduplicates findings, and maps research landscapes until saturation. |
 | **🎞️ Panorama** | Content intelligence · Trends | Content intelligence hub that brings together creators, topics, formats, and emerging trends across platforms to map niches and support content discovery. |
@@ -74,6 +75,7 @@ Some of the projects I'm working on, with a few nearing completion:
 | **📶 Nexus** | Mobile proxies · Go | Mobile proxy gateway using ADB-connected Android phones, USB 4G/5G modems, or both. Centralizes device management, cellular routes, IP rotation, connection health, and bandwidth accounting. |
 | **🪪 Blink** | Account factory | Account factory for creating online accounts in batches. Handles provider-specific registrations, identity profiles, verification steps, account inventories, and lifecycle tracking. |
 | **🍳 Gusto** | Food · Optimization | Meal planner using food budgets, nutrition goals, taste preferences, and pantry stock to generate weekly menus, recipes, and optimized grocery lists. |
+| **🌱 Kaizen** | Personal Productivity · Habits · Self-Improvement | Personal development and productivity app bringing together habit tracking, daily routines, learning exercises, and wellbeing planning. Combines structured goal management, progress tracking, and experimental synchronization in a privacy-conscious, user-controlled environment. |
 | **📡 Bipper** | Security watch | Security monitoring dashboard tracking vulnerabilities, exploits, proof-of-concepts, research tools, and threat news from RSS feeds, specialist publications, and online communities. |
 | **🧪 CanvaC2** | Red Team · C2 | C2 framework, as the name suggests. Turns collaboration platforms into discreet command channels for session control, task dispatch, and operational telemetry. |
 | **📚 Rubicon** | Investigations · OSINT | Research platform for public affairs, controversial events, and historical cases. Organizes sources, compares conflicting claims, and reconstructs evidence through timelines, maps, and graphs. |
