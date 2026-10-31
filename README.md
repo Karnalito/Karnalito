@@ -107,5 +107,4 @@ Some of the projects I'm working on, with a few nearing completion:
   <img src="https://img.shields.io/badge/-Linux-252937?style=flat-square&logo=linux&logoColor=white" alt="Linux" />
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
   <img src="https://img.shields.io/badge/-Git-555B80?style=flat-square&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/-Bun-655E87?style=flat-square&logo=bun&logoColor=white" alt="Bun" />
 </p>
