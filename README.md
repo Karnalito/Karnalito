@@ -84,6 +84,12 @@ Some of the projects I'm working on, with a few nearing completion:
 | **REDACTED** | Market intelligence · Web3 | Market intelligence platform tracking token mindshare, sentiment shifts, and emerging narratives across social platforms and financial news. |
 | **📈 YATTA** | Trading · Automation | Yet Another Trading Tool Agent. Brings together market research, strategy evaluation, risk controls, and automated trading workflows. |
 
+Here's the bigger picture: **Terminus**, the modular ecosystem architecture I'm building to bring these projects together, aiming to connect research, intelligence, data collection, knowledge management, and AI orchestration.
+
+<p align="center">
+  <img src="assets/terminus-architecture.svg" alt="Terminus modular ecosystem architecture" width="100%" />
+</p>
+
 <p><strong>🛠 Tech stack</strong></p>
 
 **Languages**
