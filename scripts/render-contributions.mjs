@@ -35,23 +35,28 @@ export function dataModel(calendar, today=new Date()){
   let current=0;while(byDay.get(day(check))>0){current++;check=new Date(check.getTime()-DAY);}
   return {days,total,activeDays,longest,current,end,max:Math.max(1,...days.map(d=>d.count))};
 }
-export function render(model,themeName,refreshedAt=new Date()){
+export function render(model,themeName,refreshedAt=new Date(),{anticipateRefreshCommit=false}={}){
   if(!(refreshedAt instanceof Date)||Number.isNaN(refreshedAt.getTime()))throw Error('Invalid refresh timestamp');
   const refreshLabel=refreshedAt.toISOString().slice(0,16).replace('T',' ')+' UTC';
   const c=themes[themeName];if(!c)throw Error('Unknown theme');
   const {days,total,activeDays,longest,current,end,max}=model;
+  // Each SVG is generated before the workflow publishes its own refresh commit.
+  // A bot-authored commit is not necessarily credited to the profile by GitHub.
+  // The +1 is a one-time projection for this publication, never stored in API data.
+  const reportTotal=total+(anticipateRefreshCommit?1:0);
+  const reportLabel=anticipateRefreshCommit?'CONTRIBUTIONS + REFRESH':'TOTAL CONTRIBUTIONS';
   const out=['<svg xmlns="http://www.w3.org/2000/svg" width="1056" height="315" viewBox="0 0 1056 315" role="img" aria-labelledby="activity-title activity-desc">'];
   out.push('<title id="activity-title">Karnalito GitHub activity, past 365 days</title>');
-  out.push('<desc id="activity-desc">'+xml(format(total)+' contributions, '+activeDays+' active days, '+current+' day current streak, '+longest+' day longest streak. Refreshed '+refreshLabel+'.')+'</desc>');
+  out.push('<desc id="activity-desc">'+xml(format(total)+' GitHub contributions'+(anticipateRefreshCommit?' plus 1 projected dashboard publication commit':'')+', '+activeDays+' active days, '+current+' day current streak, '+longest+' day longest streak. Refreshed '+refreshLabel+'.')+'</desc>');
   out.push('<defs><linearGradient id="bar" x1="0" x2="1"><stop offset="0%" stop-color="'+c.accent+'"/><stop offset="100%" stop-color="'+c.violet+'"/></linearGradient><linearGradient id="scan"><stop offset="0%" stop-color="'+c.accent+'" stop-opacity="0"/><stop offset="50%" stop-color="'+c.accent+'" stop-opacity="0.18"/><stop offset="100%" stop-color="'+c.accent+'" stop-opacity="0"/></linearGradient><clipPath id="matrix-clip"><rect x="308" y="144" width="681" height="92" rx="3"/></clipPath></defs>');
   out.push(square(1,1,1054,313,c.bg,18,'stroke="'+c.line+'" stroke-width="1.5"'));
   out.push(square(23,23,1010,270,c.panel,12));out.push(square(23,23,4,270,'url(#bar)',2));
   out.push(label(48,51,'FIELD REPORT  /  ACTIVITY INTELLIGENCE',12,c.accent,700,1.9));
   out.push(label(987,51,'UPDATED  '+refreshLabel,11,c.muted,600,1.1,'end'));out.push('<circle cx="1005" cy="46" r="3.5" fill="'+c.accent+'"><animate attributeName="opacity" values="0.25;1;0.25" dur="3.4s" repeatCount="indefinite"/></circle>');
   out.push('<path d="M 48 65 H 1008" stroke="'+c.line+'"/>');
-  out.push(label(48,107,'TOTAL CONTRIBUTIONS',12,c.muted,700,1.2));
-  out.push(label(48,165,format(total),49,c.bright,750));
-  out.push(label(48,194,'Through '+end,12,c.muted));
+  out.push(label(48,107,reportLabel,12,c.muted,700,1.2));
+  out.push(label(48,165,format(reportTotal),49,c.bright,750));
+  out.push(label(48,194,'Through '+end+(anticipateRefreshCommit?' · +1 refresh':''),12,c.muted));
   out.push('<path d="M 274 81 V 263" stroke="'+c.line+'"/>');
   out.push(label(295,105,'CONTRIBUTION MATRIX',12,c.text,700,1.5));
   const first=new Date(days[0].date+'T00:00:00Z');
@@ -97,7 +102,7 @@ async function main(){
  const model=dataModel(json.data?.user?.contributionsCollection?.contributionCalendar);
  await fs.mkdir('assets',{recursive:true});
  const renderedAt=new Date();
- for(const t of ['dark','light'])await fs.writeFile('assets/contributions-'+t+'.svg',render(model,t,renderedAt)+'\n');
+ for(const t of ['dark','light'])await fs.writeFile('assets/contributions-'+t+'.svg',render(model,t,renderedAt,{anticipateRefreshCommit:true})+'\n');
  console.log('Refreshed dashboard: '+model.total+' contributions / '+model.activeDays+' active days');
 }
 if(process.argv[1]?.endsWith('render-contributions.mjs'))main().catch(e=>{console.error(e);process.exitCode=1;});

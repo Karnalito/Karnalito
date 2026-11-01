@@ -59,3 +59,21 @@ test('refresh time is visible and changes SVG bytes independently of contributio
   assert.match(later,/0 contributions/);
  }
 });
+
+test('publication predicts exactly one refresh commit, without mutating GitHub contributions',()=>{
+ const c=sample();c.weeks[0].contributionDays.at(-1).contributionCount=7;
+ const model=dataModel(c,new Date('2026-10-27T10:00:00Z'));
+ const timestamp=new Date('2026-10-27T10:00:00Z');
+ for(const theme of ['dark','light']){
+  const before=render(model,theme,timestamp);
+  const projected=render(model,theme,timestamp,{anticipateRefreshCommit:true});
+  assert.match(before,/>TOTAL CONTRIBUTIONS<\/text>/);
+  assert.match(before,/y="165"[^>]*>7<\/text>/);
+  assert.match(projected,/>CONTRIBUTIONS \+ REFRESH<\/text>/);
+  assert.match(projected,/y="165"[^>]*>8<\/text>/);
+  assert.match(projected,/7 GitHub contributions plus 1 projected dashboard publication commit/);
+  assert.equal(render(model,theme,timestamp,{anticipateRefreshCommit:true}),projected);
+ }
+ assert.equal(model.total,7);
+ assert.equal(model.days.at(-1).count,7);
+});
