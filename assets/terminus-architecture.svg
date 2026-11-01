@@ -97,6 +97,8 @@
 <polyline points="1806.17,983 1806.17,1100 1641.17,1100 1641.17,1188" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <polyline points="2566.17,1730 2653.17,1730" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <polyline points="2566.17,1781 2786.17,1781" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3043.67,828 3043.67,908" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3196.17,808 3231.17,808 3231.17,856 3421.17,856 3421.17,828" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <rect x="4356.88" y="112.03" width="27" height="27" rx="13" fill="#EDE5FB" stroke="#7C52A8" stroke-width="1.6"/>
 <rect x="231.17" y="918" width="250" height="130" rx="13" fill="#F1F3F5" stroke="#84909B" stroke-width="2" filter="url(#shadow)"/>
 <rect x="601.17" y="918" width="275" height="130" rx="13" fill="#E6F0FF" stroke="#4A7BC7" stroke-width="2" filter="url(#shadow)"/>
@@ -170,6 +172,8 @@
 <rect x="3341.17" y="494" width="520" height="84" rx="13" fill="#E6F6EC" stroke="#2C9C69" stroke-width="2"/>
 <rect x="3683.17" y="467" width="585" height="2" rx="0" fill="none" stroke="transparent" stroke-width="1"/>
 <rect x="2256.17" y="1683" width="310" height="130" rx="13" fill="#FFF1DF" stroke="#D9913C" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2891.17" y="668" width="305" height="160" rx="13" fill="#E6F0FF" stroke="#487DD0" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2891.17" y="908" width="305" height="160" rx="13" fill="#E6F6EC" stroke="#2C9C69" stroke-width="2" filter="url(#shadow)"/>
 <text x="4396.88" y="127.64" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">INFRA</text>
 <text x="256.17" y="123.71" font-size="43" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">TERMINUS ECOSYSTEM / ARCHITECTURE</text>
 <text x="256.17" y="161.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#526273">Orchestration développée · schéma cible</text>
@@ -356,4 +360,10 @@
 <text x="2279.17" y="1729.13" font-size="29" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Prism</text>
 <text x="2279.17" y="1763.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Investigation OSINT</text>
 <text x="2279.17" y="1790.55" font-size="15" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Pivots · pistes · recoupements</text>
+<text x="2909.17" y="707.25" font-size="25" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Chroma</text>
+<text x="2909.17" y="750.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Création · édition média</text>
+<text x="2909.17" y="779.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Image · vidéo · audio · 3D</text>
+<text x="2909.17" y="947.25" font-size="25" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Persifleur</text>
+<text x="2909.17" y="990.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Développement de jeux</text>
+<text x="2909.17" y="1019.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Moteurs · modding · outils</text>
 </svg>
