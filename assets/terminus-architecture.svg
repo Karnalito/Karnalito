@@ -99,6 +99,7 @@
 <polyline points="2566.17,1781 2786.17,1781" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <polyline points="3043.67,828 3043.67,908" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <polyline points="3196.17,808 3231.17,808 3231.17,856 3421.17,856 3421.17,828" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2566.17,1493 2653.17,1493" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <rect x="4356.88" y="112.03" width="27" height="27" rx="13" fill="#EDE5FB" stroke="#7C52A8" stroke-width="1.6"/>
 <rect x="231.17" y="918" width="250" height="130" rx="13" fill="#F1F3F5" stroke="#84909B" stroke-width="2" filter="url(#shadow)"/>
 <rect x="601.17" y="918" width="275" height="130" rx="13" fill="#E6F0FF" stroke="#4A7BC7" stroke-width="2" filter="url(#shadow)"/>
