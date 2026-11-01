@@ -1,0 +1,351 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 4842 2680" width="4842" height="2680" role="img" aria-label="Terminus, architecture de l’écosystème">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#fcfdfd"/><stop offset="0.54" stop-color="#f8fafc"/><stop offset="1" stop-color="#f4f7fb"/>
+  </linearGradient>
+  <filter id="shadow" x="-15%" y="-15%" width="130%" height="130%"><feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="#263b53" flood-opacity="0.055"/></filter>
+  <marker id="head" markerWidth="10" markerHeight="8" refX="8.7" refY="4" orient="auto-start-reverse" markerUnits="userSpaceOnUse"><path d="M0 0 L9 4 L0 8 Z" fill="#506174"/></marker>
+</defs>
+<rect width="4842" height="2680" fill="url(#bg)"/>
+<rect x="0" y="0" width="4842" height="9" fill="#d9913c"/>
+<rect x="0" y="2673" width="4842" height="7" fill="#dce4ed"/>
+<polyline points="2126.17,473 2126.17,2213" fill="none" stroke="#A3B1BC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="231.17,317 741.17,317" fill="none" stroke="#E2E7EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="981.17,317 1681.17,317" fill="none" stroke="#E2E7EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="1641.17,317 2171.17,317" fill="none" stroke="#E2E7EA" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="1806.17,708 1806.17,833" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="487.17,983.01 595.17,983.01" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="882.17,983.01 975.17,983" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="1131.17,923 1131.17,798" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="1131.17,668 1131.17,543" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="1281.17,478 1456.17,478 1456.17,618 1641.17,618" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="1281.17,733 1346.17,733 1346.17,1253 1406.17,1253" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="1971.17,618 2126.17,618" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="2126.17,473 2256.17,473" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2126.17,728 2256.17,728" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2126.17,983 2256.17,983" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2126.17,1238 2256.17,1238" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2126.17,1493 2256.17,1493" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2126.17,2213 2256.17,2213" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="1131.17,1318 1131.17,1363 921.17,1363 921.17,478 981.17,478" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2256.17,1025 2021.17,1025 2021.17,1424 766.17,1424 766.17,1048" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2126.17,473 2126.17,573 1971.17,573" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="847.17,570 886.17,570 886.17,356 3506.17,356 3506.17,402" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="1131.17,356 1131.17,413" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="4115.17,965 3842.17,965" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3151.59,1363.19 3151.17,1386" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="4051.14,1363.37 4051.17,1386" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="2883.17,1386 3393.17,1386" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="3783.17,1386 4293.17,1386" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="2883.17,1386 2883.17,1418" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3053.17,1386 3053.17,1418" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3223.17,1386 3223.17,1418" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3393.17,1386 3393.17,1418" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3783.17,1386 3783.17,1418" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3953.17,1386 3953.17,1418" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="4123.17,1386 4123.17,1418" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="4293.17,1386 4293.17,1418" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2883.17,1538 2883.17,1623" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3053.17,1538 3053.17,1623" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3223.17,1538 3223.17,1623" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3393.17,1538 3393.17,1623" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3783.17,1538 3783.17,1623" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3953.17,1538 3953.17,1623" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="4123.17,1538 4123.17,1623" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="4293.17,1538 4293.17,1623" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2883.17,1738 2883.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="3053.17,1738 3053.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="3223.17,1738 3223.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="3393.17,1738 3393.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="3783.17,1738 3783.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="3953.17,1738 3953.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="4123.17,1738 4123.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="4293.17,1738 4293.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="2883.17,1793 3393.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="3783.17,1793 4293.17,1793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
+<polyline points="3131.17,1793 3131.17,1818" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="4031.17,1793 4031.17,1818" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3276.17,1883 3431.17,1883" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3926.17,1883 3781.17,1883" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3606.17,1958 3606.17,2046" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3451.17,584 3451.17,662" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2126.17,1748 2256.17,1748" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2126.17,2003 2256.17,2003" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2572.17,728.01 2741.17,728 2741.17,613 3251.17,613 3251.17,716 3265.17,716" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2572.17,2213.01 2786.17,2213 2786.17,640 3216.17,640 3216.17,793 3265.17,793" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2566.17,983 2653.17,983 2653.17,2003 2566.17,2003" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2411.17,1813 2411.17,1938" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3434.34,1232.19 3352.66,1260.14" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="3766.34,1232.16 3850.09,1260.35" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="398,570.51 535.17,570.02" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3600.46,1276.14 3602.5,1412" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3602.56,1557.66 3601.2,1812" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3601.16,1060 3600.44,1129.14" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="1706.17,1253 1881.17,1253 1881.17,2108 2411.17,2108 2411.17,2068" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="4457.17,965 4586.17,965 4584.07,1904.79" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="4584.08,2061.79 4586.17,2598 731.17,2598 731.17,1054" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2566.17,1238 2653.17,1238" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3582.17,748 3652.92,747.82" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3202.17,493 3335.17,493.02" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="735.01,855.46 738.35,912" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3967.22,734.38 4082.73,733.56" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3747.34,824.94 3743.2,853.18 3739.36,882.97" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="3778.95,584 3782.53,661.79" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="704.2,656.87 706.97,708.46" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="506.25,787.2 363.08,912" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<rect x="4356.88" y="112.03" width="27" height="27" rx="13" fill="#EDE5FB" stroke="#7C52A8" stroke-width="1.6"/>
+<rect x="231.17" y="918" width="250" height="130" rx="13" fill="#F1F3F5" stroke="#84909B" stroke-width="2" filter="url(#shadow)"/>
+<rect x="601.17" y="918" width="275" height="130" rx="13" fill="#E6F0FF" stroke="#4A7BC7" stroke-width="2" filter="url(#shadow)"/>
+<rect x="981.17" y="413" width="300" height="130" rx="13" fill="#E6F6EC" stroke="#3E9C70" stroke-width="2" filter="url(#shadow)"/>
+<rect x="981.17" y="668" width="300" height="130" rx="13" fill="#E6F0FF" stroke="#4A7BC7" stroke-width="2" filter="url(#shadow)"/>
+<rect x="981.17" y="923" width="300" height="130" rx="13" fill="#E6F0FF" stroke="#4A7BC7" stroke-width="2" filter="url(#shadow)"/>
+<rect x="981.17" y="1188" width="300" height="130" rx="13" fill="#E6F0FF" stroke="#4A7BC7" stroke-width="2" filter="url(#shadow)"/>
+<rect x="1406.17" y="1188" width="300" height="130" rx="13" fill="#E6F6EC" stroke="#3E9C70" stroke-width="2" filter="url(#shadow)"/>
+<rect x="1641.17" y="528" width="330" height="180" rx="13" fill="#FFF1DF" stroke="#D9913C" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2256.17" y="408" width="310" height="130" rx="13" fill="#E6F6EC" stroke="#3E9C70" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2256.17" y="918" width="310" height="130" rx="13" fill="#E6F0FF" stroke="#4A7BC7" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2256.17" y="663" width="310" height="130" rx="13" fill="#E6F6EC" stroke="#3E9C70" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2256.17" y="1173" width="310" height="130" rx="13" fill="#E6F6EC" stroke="#3E9C70" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2256.17" y="1428" width="310" height="130" rx="13" fill="#E6F6EC" stroke="#3E9C70" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2256.17" y="2148" width="310" height="130" rx="13" fill="#E6F6EC" stroke="#3E9C70" stroke-width="2" filter="url(#shadow)"/>
+<rect x="481.17" y="1059" width="111" height="32" rx="13" fill="#FFFFFF" stroke="#A9B5C2" stroke-width="1.5"/>
+<rect x="896.17" y="841" width="110" height="32" rx="13" fill="#FFFFFF" stroke="#A9B5C2" stroke-width="1.5"/>
+<rect x="1149.17" y="845" width="138" height="32" rx="13" fill="#FFFFFF" stroke="#A9B5C2" stroke-width="1.5"/>
+<rect x="1149.17" y="575" width="123" height="32" rx="13" fill="#FFFFFF" stroke="#A9B5C2" stroke-width="1.5"/>
+<rect x="1344.17" y="1055" width="119" height="32" rx="13" fill="#FFFFFF" stroke="#A9B5C2" stroke-width="1.5"/>
+<rect x="1419.17" y="1407" width="214" height="34" rx="13" fill="#FFFFFF" stroke="#A9B5C2" stroke-width="1.5"/>
+<rect x="1641.17" y="833" width="330" height="150" rx="13" fill="#E6F0FF" stroke="#4A7BC7" stroke-width="2" filter="url(#shadow)"/>
+<rect x="1814.17" y="753" width="149" height="32" rx="13" fill="#FFFFFF" stroke="#A9B5C2" stroke-width="1.5"/>
+<rect x="3596.88" y="111.28" width="27" height="27" rx="13" fill="#E6F6EC" stroke="#2C9C69" stroke-width="2"/>
+<rect x="3836.88" y="111.52" width="27" height="27" rx="13" fill="#E6F0FF" stroke="#4774D2" stroke-width="2"/>
+<rect x="4076.88" y="111.75" width="27" height="27" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2"/>
+<rect x="3356.88" y="111.05" width="27" height="27" rx="13" fill="#F1F3F5" stroke="#8E9CA9" stroke-width="2"/>
+<rect x="541.17" y="488" width="300" height="165" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3341.17" y="408" width="330" height="170" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3271.17" y="668" width="305" height="160" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3476.85" y="1418" width="223.63" height="133.66" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="4121.17" y="893" width="330" height="145" rx="13" fill="#EDE5FB" stroke="#7C52A8" stroke-width="2" filter="url(#shadow)"/>
+<rect x="4419.02" y="1910.79" width="330" height="145" rx="13" fill="#EDE5FB" stroke="#7C52A8" stroke-width="2" filter="url(#shadow)"/>
+<rect x="512.25" y="714.46" width="390" height="135" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3366.17" y="888" width="470" height="166" rx="13" fill="#E6F0FF" stroke="#4774D2" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2956.66" y="1222.19" width="390" height="135" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3856.09" y="1222.37" width="390" height="135" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2811.17" y="1418" width="145" height="120" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2981.17" y="1418" width="145" height="120" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3151.17" y="1418" width="145" height="120" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3321.17" y="1418" width="145" height="120" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3711.17" y="1418" width="145" height="120" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3881.17" y="1418" width="145" height="120" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="4051.17" y="1418" width="145" height="120" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="4221.17" y="1418" width="145" height="120" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2811.17" y="1623" width="145" height="115" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2981.17" y="1623" width="145" height="115" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3151.17" y="1623" width="145" height="115" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3321.17" y="1623" width="145" height="115" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3711.17" y="1623" width="145" height="115" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3881.17" y="1623" width="145" height="115" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="4051.17" y="1623" width="145" height="115" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="4221.17" y="1623" width="145" height="115" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3026.17" y="1818" width="250" height="130" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3926.17" y="1818" width="250" height="130" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3440.34" y="1135.14" width="320" height="135" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3431.17" y="1818" width="350" height="140" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3461.17" y="2046" width="290" height="150" rx="13" fill="#E6F6EC" stroke="#2C9C69" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2256.17" y="1683" width="310" height="130" rx="13" fill="#FFF1DF" stroke="#D9913C" stroke-width="2" filter="url(#shadow)"/>
+<rect x="2256.17" y="1938" width="310" height="130" rx="13" fill="#E6F6EC" stroke="#3E9C70" stroke-width="2" filter="url(#shadow)"/>
+<rect x="92" y="488.53" width="300" height="165" rx="13" fill="#F1F3F5" stroke="#9AA5B1" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3353.17" y="494" width="305" height="2" rx="0" fill="#D69B53" stroke="#D69B53" stroke-width="1"/>
+<rect x="4091.43" y="622.37" width="480" height="210" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="4118.43" y="713.37" width="205" height="44" rx="13" fill="#FFF9EF" stroke="#E69A35" stroke-width="2"/>
+<rect x="4339.43" y="713.37" width="205" height="44" rx="13" fill="#FFF9EF" stroke="#E69A35" stroke-width="2"/>
+<rect x="4118.43" y="769.37" width="205" height="44" rx="13" fill="#FFF9EF" stroke="#E69A35" stroke-width="2"/>
+<rect x="4339.43" y="769.37" width="205" height="44" rx="13" fill="#FFF9EF" stroke="#E69A35" stroke-width="2"/>
+<rect x="2891.17" y="413" width="305" height="135" rx="13" fill="#FFF1DF" stroke="#E69A35" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3658.92" y="667.79" width="305" height="160" rx="13" fill="#E6F6EC" stroke="#2C9C69" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3571.17" y="1674" width="60" height="31" rx="13" fill="#FFFFFF" stroke="#A9B5C2" stroke-width="1"/>
+<rect x="3671.17" y="408" width="610" height="170" rx="13" fill="#E6F6EC" stroke="#2C9C69" stroke-width="2" filter="url(#shadow)"/>
+<rect x="3683.17" y="467" width="585" height="2" rx="0" fill="#2C9C69" stroke="#2C9C69" stroke-width="1"/>
+<text x="4396.88" y="127.64" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">INFRA</text>
+<text x="256.17" y="123.71" font-size="43" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">TERMINUS ECOSYSTEM / ARCHITECTURE</text>
+<text x="256.17" y="161.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#526273">Orchestration développée · schéma cible</text>
+<text x="231.17" y="283.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#D9913C">01</text>
+<text x="276.17" y="284.34" font-size="22" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172433">ACQUISITION</text>
+<text x="981.17" y="283.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#D9913C">02</text>
+<text x="1026.17" y="284.34" font-size="22" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172433">MÉMOIRE &amp; DONNÉES</text>
+<text x="1641.17" y="283.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#D9913C">03</text>
+<text x="1686.17" y="284.34" font-size="22" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172433">QUALIFICATION</text>
+<text x="2256.17" y="283.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#D9913C">04</text>
+<text x="2301.17" y="284.34" font-size="22" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172433">CONSOMMATEURS</text>
+<text x="254.17" y="965.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Sources</text>
+<text x="254.17" y="999.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Web · réseaux · APIs</text>
+<text x="624.17" y="965.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Falcon</text>
+<text x="624.17" y="999.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Collecte agressive</text>
+<text x="624.17" y="1028.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Capture · extraction</text>
+<text x="1004.17" y="460.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Axone</text>
+<text x="1004.17" y="494.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Mémoire personnelle</text>
+<text x="1004.17" y="523.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Retrouver · contextualiser</text>
+<text x="1004.17" y="715.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Synapse</text>
+<text x="1004.17" y="748.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Construire les connaissances</text>
+<text x="1004.17" y="778.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Entités · relations · graphes</text>
+<text x="1004.17" y="970.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Courrier</text>
+<text x="1004.17" y="1004.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Préservation des contenus</text>
+<text x="1004.17" y="1033.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Multiplateforme</text>
+<text x="1004.17" y="1235.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Citadel</text>
+<text x="1004.17" y="1269.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Cataloguer les datasets</text>
+<text x="1004.17" y="1297.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Métadonnées · droits d’accès</text>
+<text x="1429.17" y="1235.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Magellan</text>
+<text x="1429.17" y="1269.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Explorer les graphes</text>
+<text x="1429.17" y="1298.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Visualiser · naviguer</text>
+<text x="1664.17" y="575.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Oculus</text>
+<text x="1664.17" y="609.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Qualifier · dédupliquer · prioriser</text>
+<text x="1664.17" y="640.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Orienter · preuves · impact</text>
+<text x="2279.17" y="455.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Bipper</text>
+<text x="2279.17" y="489.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Veille cyber</text>
+<text x="2279.17" y="516.52" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Vulnérabilités · exploits · alertes</text>
+<text x="2279.17" y="965.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Meridian</text>
+<text x="2279.17" y="999.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Recherche récursive</text>
+<text x="2279.17" y="1025.55" font-size="15" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Preuves · alternatives · benchmarks</text>
+<text x="2279.17" y="710.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Portfolio</text>
+<text x="2279.17" y="744.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Registre des projets</text>
+<text x="2279.17" y="773.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Validation · priorités</text>
+<text x="2279.17" y="1220.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Panorama</text>
+<text x="2279.17" y="1261.06" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Niches · tendances </text>
+<text x="2279.17" y="1475.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Apex</text>
+<text x="2279.17" y="1509.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Prospection B2B</text>
+<text x="2279.17" y="1538.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Entreprises · opportunités</text>
+<text x="2279.17" y="2195.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Catalyst</text>
+<text x="2279.17" y="2229.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Recherche d'emploi</text>
+<text x="2279.17" y="2258.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Matching · candidatures</text>
+<text x="487.17" y="1079.52" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#4F6075">Acquérir</text>
+<text x="902.17" y="861.52" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#4F6075">Archiver</text>
+<text x="1155.17" y="865.52" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#4F6075">Comprendre</text>
+<text x="1155.17" y="595.52" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#4F6075">Mémoriser</text>
+<text x="1350.17" y="1075.52" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#4F6075">Visualiser</text>
+<text x="1424.17" y="1427.52" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#4F6075">Recherche · collecte</text>
+<text x="1664.17" y="879.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Taxonomist</text>
+<text x="1664.17" y="915.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Structurer les signaux</text>
+<text x="1664.17" y="943.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Schémas · labels · règles</text>
+<text x="1664.17" y="669.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Risques · projets · actions</text>
+<text x="1820.17" y="773.52" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#4F6075">Classifier</text>
+<text x="3636.88" y="126.9" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">INTERFACE</text>
+<text x="3876.88" y="127.13" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">BACKEND</text>
+<text x="4116.88" y="127.37" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">INTELLIGENCE</text>
+<text x="3396.88" y="126.67" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">SOURCE</text>
+<text x="544.17" y="444.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#E69A35">00</text>
+<text x="580.17" y="445.34" font-size="22" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">TÂCHE INITIALE</text>
+<text x="563.17" y="535.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172333">Tâche initiale</text>
+<text x="564.17" y="569.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Mission ou évolution existante</text>
+<text x="564.17" y="596.55" font-size="15" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Produit · fix · feature · intégration</text>
+<text x="3374.92" y="280.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#E69A35">05</text>
+<text x="3422.92" y="281.34" font-size="22" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">ORCHESTRATION</text>
+<text x="3289.17" y="707.25" font-size="25" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Hermes</text>
+<text x="3289.17" y="749.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Exécution agentique</text>
+<text x="3289.17" y="770.74" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Code · outils</text>
+<text x="3289.17" y="791.99" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Skills</text>
+<text x="3497.34" y="1449.6" font-size="23.391055996107315" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Gandalf</text>
+<text x="3497.34" y="1476.57" font-size="15.59403733073821" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Moteur décisionnel</text>
+<text x="3497.34" y="1498.91" font-size="13.366317712061322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Revue · collaboration</text>
+<text x="3497.34" y="1515.62" font-size="13.366317712061322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Présence · conflits</text>
+<text x="3497.34" y="1532.33" font-size="13.366317712061322" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Handoffs · alertes</text>
+<text x="4139.17" y="936.16" font-size="28" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172333">Blink</text>
+<text x="4139.17" y="981.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Account Factory</text>
+<text x="4437.02" y="1953.95" font-size="28" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172333">Nexus</text>
+<text x="4437.02" y="1993.25" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Modems 4G/5G · Android ADB</text>
+<text x="4437.02" y="2022.25" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Rotation IP</text>
+<text x="530.25" y="755.62" font-size="28" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172333">JEV</text>
+<text x="535.25" y="795.92" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Évaluer · jugement structuré</text>
+<text x="535.25" y="824.92" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Confiance · classement</text>
+<text x="3384.17" y="926.22" font-size="26" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Ravel</text>
+<text x="3388.38" y="968.94" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Exploitation Free Tier LLM</text>
+<text x="3388.24" y="999.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Adaptateurs · capacités</text>
+<text x="3388.24" y="1020.74" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">billing estimation · streaming des sessions</text>
+<text x="2974.66" y="1262.44" font-size="25" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Morty - Project 1</text>
+<text x="2974.66" y="1332.65" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Suivre le lot de travail</text>
+<text x="2974.66" y="1303.65" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Coordonner les sessions</text>
+<text x="3874.09" y="1262.62" font-size="25" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Morty - Project 2</text>
+<text x="3874.09" y="1303.83" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Coordonner les sessions</text>
+<text x="3874.09" y="1332.83" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Suivre le lot de travail</text>
+<text x="2829.17" y="1453.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Task 1</text>
+<text x="2829.17" y="1499.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">ChatGPT</text>
+<text x="2999.17" y="1453.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Task 2</text>
+<text x="2999.17" y="1499.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">ChatGPT</text>
+<text x="3169.17" y="1453.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Task 3</text>
+<text x="3169.17" y="1499.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">ChatGPT</text>
+<text x="3339.17" y="1453.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Task 4</text>
+<text x="3339.17" y="1499.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">ChatGPT</text>
+<text x="3729.17" y="1453.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Task 1</text>
+<text x="3729.17" y="1499.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">ChatGPT</text>
+<text x="3899.17" y="1453.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Task 2</text>
+<text x="3899.17" y="1499.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">ChatGPT</text>
+<text x="4069.17" y="1453.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Task 3</text>
+<text x="4069.17" y="1499.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">ChatGPT</text>
+<text x="4239.17" y="1453.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Task 4</text>
+<text x="4239.17" y="1499.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Perplexity</text>
+<text x="2829.17" y="1658.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">PR 1–7</text>
+<text x="2829.17" y="1704.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Branche / diff</text>
+<text x="2999.17" y="1658.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">PR 8–14</text>
+<text x="2999.17" y="1704.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Branche / diff</text>
+<text x="3169.17" y="1658.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">PR 15–30</text>
+<text x="3169.17" y="1704.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Branche / diff</text>
+<text x="3339.17" y="1658.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">PR 31–50</text>
+<text x="3339.17" y="1704.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Branche / diff</text>
+<text x="3729.17" y="1658.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">PR 1–7</text>
+<text x="3729.17" y="1704.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Branche / diff</text>
+<text x="3899.17" y="1658.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">PR 8–14</text>
+<text x="3899.17" y="1704.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Branche / diff</text>
+<text x="4069.17" y="1658.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">PR 15–30</text>
+<text x="4069.17" y="1704.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Branche / diff</text>
+<text x="4239.17" y="1658.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">PR 31–50</text>
+<text x="4239.17" y="1704.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Branche / diff</text>
+<text x="3044.17" y="1861.16" font-size="28" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172333">Dépôt GitHub</text>
+<text x="3044.17" y="1896.55" font-size="15" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Code · branches · historique</text>
+<text x="3044.17" y="1928.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Pull requests du lot</text>
+<text x="3944.17" y="1861.16" font-size="28" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172333">Dépôt GitHub</text>
+<text x="3944.17" y="1896.55" font-size="15" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Code · branches · historique</text>
+<text x="3944.17" y="1928.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Pull requests du lot</text>
+<text x="3454.17" y="1857.28" font-size="24" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Morty · consolidation</text>
+<text x="3449.17" y="1901.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Réconcilier les travaux</text>
+<text x="3449.17" y="1927.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Détecter les écarts</text>
+<text x="3479.17" y="2089.16" font-size="28" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172333">Livrable final</text>
+<text x="3479.17" y="2128.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Produit · patch · correction</text>
+<text x="3479.17" y="2157.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Feature · intégration</text>
+<text x="3458.34" y="1176.36" font-size="26" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Rick</text>
+<text x="3458.34" y="1215.63" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Exécution assistée</text>
+<text x="3458.34" y="1244.63" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Relais pour tâches ciblées</text>
+<text x="2279.17" y="1730.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">YATTA</text>
+<text x="2279.17" y="1774" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Trading tool Agent</text>
+<text x="2279.17" y="1985.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">REDACTED</text>
+<text x="2279.17" y="2019.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Intelligence de marché</text>
+<text x="2279.17" y="2048.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Web3 · signaux · tendances</text>
+<text x="110" y="532.63" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172333">Opérateur</text>
+<text x="115" y="570.99" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Objectifs et priorités</text>
+<text x="115" y="599.99" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#475A6D">Autorisations et arbitrages</text>
+<text x="149.17" y="444.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#E69A35">000</text>
+<text x="219.17" y="445.34" font-size="22" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">OPÉRATEUR</text>
+<text x="3361.17" y="442.19" font-size="27" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Alfred</text>
+<text x="3361.17" y="472.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Stratégie · routage · budgets</text>
+<text x="3691.17" y="440.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#184E3D">Cockpit</text>
+<text x="3691.17" y="500.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#295D4C">Odysseus · T3 Code · Antigravity</text>
+<text x="3691.17" y="521.7" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#295D4C">Gandalf · Paperclip · Hermes</text>
+<text x="4111.43" y="657.65" font-size="24" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Antigravity</text>
+<text x="4111.43" y="691.89" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Sessions Antigravity disponibles</text>
+<text x="4194.39" y="739.86" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Grot 1</text>
+<text x="4415.39" y="739.86" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Grot 2</text>
+<text x="4184.78" y="795.86" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Minion 3</text>
+<text x="4405.78" y="795.86" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Minion 4</text>
+<text x="2907.17" y="447.37" font-size="21" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Moteur décisionnel</text>
+<text x="2907.17" y="483.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Avis · arbitrages</text>
+<text x="2907.17" y="514.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">Décisions documentées</text>
+<text x="3154.17" y="450.22" font-size="26" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#E69A35">★</text>
+<text x="846.25" y="759.56" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#E69A35">★</text>
+<text x="3662.62" y="1451.76" font-size="25.6187756147842" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#E69A35">★</text>
+<text x="3514.17" y="704.19" font-size="27" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#4A7BC7">★</text>
+<text x="4524.43" y="660.56" font-size="27" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#4774D2">★</text>
+<text x="3676.92" y="707.04" font-size="25" font-family="DejaVu Sans, Arial, sans-serif" font-weight="650" fill="#172333">Paperclip</text>
+<text x="3676.92" y="749.28" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Gestion des missions</text>
+<text x="3676.92" y="770.53" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Tâches · runs</text>
+<text x="3676.92" y="791.78" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#172333">Reprise</text>
+<text x="3590.17" y="1693.55" font-size="15" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#516173">QA</text>
+<text x="1925.17" y="569.13" font-size="29" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#D9A100">★</text>
+<text x="2520.17" y="1724.13" font-size="29" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#D9A100">★</text>
+</svg>
