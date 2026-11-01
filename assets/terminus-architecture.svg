@@ -22,8 +22,8 @@
 <polyline points="1281.17,733 1346.17,733 1346.17,1253 1406.17,1253" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <polyline points="1971.17,618 2126.17,618" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   />
 <polyline points="2126.17,473 2256.17,473" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
-<polyline points="2126.17,728 2256.17,728" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
-<polyline points="2126.17,983 2256.17,983" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2126.17,728 2256.17,728" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2126.17,983 2256.17,983" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <polyline points="2126.17,1238 2256.17,1238" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
 <polyline points="2126.17,1493 2256.17,1493" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
 <polyline points="2126.17,2513 2256.17,2513" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
