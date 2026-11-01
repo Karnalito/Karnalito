@@ -93,6 +93,10 @@
 <polyline points="3778.95,584 3782.53,661.79" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <polyline points="704.2,656.87 706.97,708.46" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <polyline points="506.25,787.2 363.08,912" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2126.17,1618 2256.17,1618" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"   marker-end="url(#head)"/>
+<polyline points="2566.17,1598 2611.17,1598 2611.17,1036 2572.17,1036" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="2566.17,1644 2718.17,1644 2718.17,810 3265.17,810" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
+<polyline points="1806.17,983 1806.17,1100 1641.17,1100 1641.17,1188" fill="none" stroke="#506174" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"  marker-start="url(#head)" marker-end="url(#head)"/>
 <rect x="4356.88" y="112.03" width="27" height="27" rx="13" fill="#EDE5FB" stroke="#7C52A8" stroke-width="1.6"/>
 <rect x="231.17" y="918" width="250" height="130" rx="13" fill="#F1F3F5" stroke="#84909B" stroke-width="2" filter="url(#shadow)"/>
 <rect x="601.17" y="918" width="275" height="130" rx="13" fill="#E6F0FF" stroke="#4A7BC7" stroke-width="2" filter="url(#shadow)"/>
@@ -165,6 +169,7 @@
 <rect x="3571.17" y="1674" width="60" height="31" rx="13" fill="#FFFFFF" stroke="#A9B5C2" stroke-width="1"/>
 <rect x="3341.17" y="494" width="520" height="84" rx="13" fill="#E6F6EC" stroke="#2C9C69" stroke-width="2"/>
 <rect x="3683.17" y="467" width="585" height="2" rx="0" fill="none" stroke="transparent" stroke-width="1"/>
+<rect x="2256.17" y="1568" width="310" height="100" rx="13" fill="#FFF1DF" stroke="#D9913C" stroke-width="2"/>
 <text x="4396.88" y="127.64" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#506174">INFRA</text>
 <text x="256.17" y="123.71" font-size="43" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">TERMINUS ECOSYSTEM / ARCHITECTURE</text>
 <text x="256.17" y="161.4" font-size="20" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#526273">Orchestration développée · schéma cible</text>
@@ -204,7 +209,7 @@
 <text x="2279.17" y="516.52" font-size="16" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Vulnérabilités · exploits · alertes</text>
 <text x="2279.17" y="965.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Meridian</text>
 <text x="2279.17" y="999.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Recherche récursive</text>
-<text x="2279.17" y="1025.55" font-size="15" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Pivots · pistes · saturation</text>
+<text x="2279.17" y="1024.58" font-size="14" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Alternatives · benchmarks · saturation</text>
 <text x="2279.17" y="710.1" font-size="30" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Portfolio</text>
 <text x="2279.17" y="744.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Registre des projets</text>
 <text x="2279.17" y="773.46" font-size="18" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Validation · priorités</text>
@@ -348,4 +353,7 @@
 <text x="3590.17" y="1693.55" font-size="15" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#516173">QA</text>
 <text x="1925.17" y="569.13" font-size="29" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#D9A100">★</text>
 <text x="2520.17" y="1724.13" font-size="29" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#D9A100">★</text>
+<text x="2279.17" y="1603.13" font-size="29" font-family="DejaVu Sans, Arial, sans-serif" font-weight="750" fill="#172433">Prism</text>
+<text x="2279.17" y="1630.49" font-size="17" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#425364">Investigation OSINT</text>
+<text x="2279.17" y="1656.55" font-size="15" font-family="DejaVu Sans, Arial, sans-serif" font-weight="500" fill="#5C6A75">Pivots · pistes · recoupements</text>
 </svg>
