@@ -1,3 +1,4 @@
+# Archived workflow — inactive; retained for historical reference only
 name: Refresh contribution artwork
 on:
   workflow_dispatch:
