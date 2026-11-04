@@ -4,7 +4,7 @@ Documentation=https://github.com/Karnalito/Karnalito
 
 [Service]
 Type=oneshot
-ExecStart=%h/.local/bin/karnalito-profile-refresh
+ExecStart=/usr/bin/bash %h/.local/bin/karnalito-profile-refresh
 Environment="PATH=%h/.local/bin:/usr/local/bin:/usr/bin:/bin"
 EnvironmentFile=-%h/.config/karnalito-profile/env
 TimeoutStartSec=180
