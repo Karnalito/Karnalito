@@ -1,0 +1,74 @@
+# Archived workflow — inactive; retained for historical reference only
+name: Refresh contribution artwork
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '17 1,7,13,19 * * *' # every 6 hours UTC, away from :00 load spike
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/profile-activity.yml'
+      - 'scripts/render-contributions.mjs'
+      - 'scripts/render-contributions.test.mjs'
+      - 'scripts/version-contributions.mjs'
+      - 'scripts/version-contributions.test.mjs'
+      - 'scripts/profile-refresh-trigger.txt' # external watchdog recovery pulse
+permissions:
+  contents: write
+concurrency:
+  group: profile-activity
+  cancel-in-progress: false
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - name: Verify SVG generator
+        run: node --test scripts/render-contributions.test.mjs scripts/version-contributions.test.mjs
+      - name: Generate current contribution visuals
+        run: node scripts/render-contributions.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          PROFILE_LOGIN: Karnalito
+      - name: Version image URLs to avoid stale GitHub image cache
+        run: node scripts/version-contributions.mjs
+      - name: Commit refreshed SVGs and image references
+        run: |
+          # Preserve freshly rendered artifacts while rebasing the publishing step
+          # on the newest main. A watchdog pulse and a scheduled run may overlap.
+          cp assets/contributions-dark.svg "$RUNNER_TEMP/profile-dark.svg"
+          cp assets/contributions-light.svg "$RUNNER_TEMP/profile-light.svg"
+          for attempt in 1 2 3; do
+            # Drop only transient generated edits (artifacts are saved in RUNNER_TEMP).
+            git reset --hard -q
+            git fetch --quiet origin main
+            git checkout -q -B main origin/main
+            cp "$RUNNER_TEMP/profile-dark.svg" assets/contributions-dark.svg
+            cp "$RUNNER_TEMP/profile-light.svg" assets/contributions-light.svg
+            node scripts/version-contributions.mjs
+            git add README.md assets/contributions-dark.svg assets/contributions-light.svg
+            if git diff --cached --quiet; then
+              echo "Dashboard already current"
+              exit 0
+            fi
+            git -c user.name='github-actions[bot]' -c user.email='41898282+github-actions[bot]@users.noreply.github.com' commit -m 'chore(profile): refresh activity dashboard [skip ci]'
+            if git push origin HEAD:main; then
+              exit 0
+            fi
+            if [ "$attempt" -eq 3 ]; then
+              echo "Dashboard push failed after three bounded attempts" >&2
+              exit 1
+            fi
+            sleep "$attempt"
+          done
+      - name: Log completion and trigger for auditing
+        if: always()
+        run: |
+          echo "### Profile dashboard job" >> "$GITHUB_STEP_SUMMARY"
+          echo "Trigger: $GITHUB_EVENT_NAME" >> "$GITHUB_STEP_SUMMARY"
+          echo "Run ID: $GITHUB_RUN_ID" >> "$GITHUB_STEP_SUMMARY"
+          echo "Recorded at (UTC): $(date -u +%Y-%m-%dT%H:%M:%SZ)" >> "$GITHUB_STEP_SUMMARY"
