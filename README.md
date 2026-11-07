@@ -51,13 +51,6 @@ Here is a selection of what I'm building.
   </tr>
 </table>
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="assets/contributions-dark.svg?v=10caf8b59126" />
-    <img src="assets/contributions-light.svg?v=10caf8b59126" alt="Contribution dashboard: live annual total, daily activity heatmap, active days and streaks" width="100%" />
-  </picture>
-</p>
-
 <p><strong>More projects from the workbench</strong></p>
 
 Some of the projects I'm working on, with a few nearing completion:
@@ -82,7 +75,7 @@ Some of the projects I'm working on, with a few nearing completion:
 | **🎨 Chroma** | Creative tools | Tools for generating, editing, and processing images, video, audio, and 3D assets. Connects AI models, editing utilities, and repeatable production workflows. |
 | **🎮 Persifleur** | Game development | Game development and reverse engineering laboratory. Studies game mechanics, engines, and system behavior to build original features, modding tools, and reusable components. |
 | **REDACTED** | Market intelligence · Web3 | Market intelligence platform tracking token mindshare, sentiment shifts, and emerging narratives across social platforms and financial news. |
-| **📈 YATTA** | Trading · Automation | Yet Another Trading Tool Agent. Brings together market research, strategy evaluation, risk controls, and automated trading workflows. |
+| **📈 YATTA** | Trading · Automation | Yet Another Trading Toolkit Agent — modular tooling for market research, strategy backtesting, risk controls, and broker/exchange workflow automation. Under development; no live-trading or performance claims. |
 
 Here's the bigger picture: **Terminus**, the modular ecosystem architecture I'm building to bring these projects together, aiming to connect research, intelligence, data collection, knowledge management, and AI orchestration.
 
